@@ -44,7 +44,7 @@ export const Toolbar = () => {
   return (
     <StyledTools>
       <Group gap="xs" justify="left" w="100%" style={{ flexWrap: "nowrap" }}>
-        <StyledToolElement title="JSON Crack">
+        <StyledToolElement title="JSON">
           <Flex gap="xs" align="center" justify="center">
             <JSONCrackLogo fontSize="0.8rem" hideLogo />
           </Flex>
@@ -54,11 +54,11 @@ export const Toolbar = () => {
         <ToolsMenu />
       </Group>
       <Group gap="xs" justify="right" w="100%" style={{ flexWrap: "nowrap" }}>
-        <Link href="https://github.com/AykutSarac/jsoncrack.com" rel="noopener" target="_blank">
-          <StyledToolElement title="GitHub">
-            <FaGithub size="18" />
-          </StyledToolElement>
-        </Link>
+        {/*<Link href="https://github.com/AykutSarac/jsoncrack.com" rel="noopener" target="_blank">*/}
+        {/*  <StyledToolElement title="GitHub">*/}
+        {/*    <FaGithub size="18" />*/}
+        {/*  </StyledToolElement>*/}
+        {/*</Link>*/}
         <StyledToolElement title="Fullscreen" onClick={fullscreenBrowser}>
           <AiOutlineFullscreen size="18" />
         </StyledToolElement>

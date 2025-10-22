@@ -1,43 +1,31 @@
 {
-  "fruits": [
+  "title": "ideaflow在线工具站",
+  "json.url": "https://tools.ideaflow.top",
+  "keywords": "json在线解析",
+  "功能": [
+    "JSON美化",
+    "JSON数据类型显示",
+    "JSON数组显示角标",
+    "高亮显示",
+    "错误提示",
     {
-      "name": "Apple",
-      "color": "#FF0000",
-      "details": {
-        "type": "Pome",
-        "season": "Fall"
-      },
-      "nutrients": {
-        "calories": 52,
-        "fiber": "2.4g",
-        "vitaminC": "4.6mg"
-      }
-    },
-    {
-      "name": "Banana",
-      "color": "#FFFF00",
-      "details": {
-        "type": "Berry",
-        "season": "Year-round"
-      },
-      "nutrients": {
-        "calories": 89,
-        "fiber": "2.6g",
-        "potassium": "358mg"
-      }
-    },
-    {
-      "name": "Orange",
-      "color": "#FFA500",
-      "details": {
-        "type": "Citrus",
-        "season": "Winter"
-      },
-      "nutrients": {
-        "calories": 47,
-        "fiber": "2.4g",
-        "vitaminC": "53.2mg"
-      }
+      "备注": [
+        "tools.ideaflow.top",
+        "tools.ideaflow.top2"
+      ]
     }
-  ]
+  ],
+  "color": "#0fd59d",
+  "date": "2014-01-01",
+  "unixtime": "1729736646666",
+  "current_wow_in_movie": 3,
+  "total_wows_in_movie": 6,
+  "poster": "https://images.ctfassets.net/bs8ntwkklfua/6jFEUPmYiKifaTuC2cugm8/22087834d091445fc9393cdd9163a901/Hall_Pass_Poster.jpg",
+  "video": {
+    "1080p": "https://videos.ctfassets.net/bs8ntwkklfua/4QcL02MHJ8ApVkbfN8cP6E/264c28c1e9195d87f0206e143c5ca54a/Hall_Pass_Wow_3_1080p.mp4",
+    "720p": "https://videos.ctfassets.net/bs8ntwkklfua/15h0sMoIhdeaPDB8qSsUN9/36245f66352b595dc40bc4d9903fa5b3/Hall_Pass_Wow_3_720p.mp4",
+    "480p": "https://videos.ctfassets.net/bs8ntwkklfua/74fQiVcwuT7ePQemGC7ih4/b102922c97c9ff38f47268d648628a22/Hall_Pass_Wow_3_480p.mp4",
+    "360p": "https://videos.ctfassets.net/bs8ntwkklfua/7mSGl1rSVtGdfSacwnKVsu/e7ac36e5684f6b64978987d2f68c43db/Hall_Pass_Wow_3_360p.mp4"
+  },
+  "audio": "https://assets.ctfassets.net/bs8ntwkklfua/2NBIVPDF4o7cy0epTvPOwR/406cd5c17e9b01511f1e350bb96df352/Hall_Pass_Wow_3.mp3"
 }
