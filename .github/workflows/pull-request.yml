@@ -2,7 +2,7 @@ name: Verify Pull Request
 
 on:
   pull_request:
-    branches: [ "main" ]
+    branches: [ "main-my" ]
 
 jobs:
   cache-and-install:

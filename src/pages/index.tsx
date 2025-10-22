@@ -39,7 +39,7 @@ import useFile from "../store/useFile";
 const ModalController = dynamic(() => import("../features/modals/ModalController"));
 
 // 使用动态导入加载外部模式组件，仅在客户端渲染
-const ExternalMode = dynamic(() => import("../features/editor/ExternalMode"));
+// const ExternalMode = dynamic(() => import("../features/editor/ExternalMode"));
 
 // 创建 React Query 客户端实例并配置默认选项
 const queryClient = new QueryClient({

@@ -1,10 +1,10 @@
 import React from "react";
-import Link from "next/link";
+// import Link from "next/link";
 import { Flex, Group } from "@mantine/core";
 import styled from "styled-components";
 import toast from "react-hot-toast";
 import { AiOutlineFullscreen } from "react-icons/ai";
-import { FaGithub } from "react-icons/fa6";
+// import { FaGithub } from "react-icons/fa6";
 import { JSONCrackLogo } from "../../../layout/JsonCrackLogo";
 import { FileMenu } from "./FileMenu";
 import { ToolsMenu } from "./ToolsMenu";

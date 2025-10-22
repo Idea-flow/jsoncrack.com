@@ -1,10 +1,9 @@
-import React, { useCallback } from "react"; // 导入React核心库和useCallback钩子
-
-import { LoadingOverlay } from "@mantine/core"; // 导入Mantine UI库的加载覆盖组件
-import styled from "styled-components"; // 导入styled-components用于样式化组件
-import Editor, { type EditorProps, loader, type OnMount, useMonaco } from "@monaco-editor/react"; // 导入Monaco编辑器React组件及相关类型
-import useConfig from "../../store/useConfig"; // 导入配置状态管理钩子
-import useFile from "../../store/useFile"; // 导入文件状态管理钩子
+import React, { useCallback } from "react";
+import { LoadingOverlay } from "@mantine/core";
+import styled from "styled-components";
+import Editor, { type EditorProps, loader, type OnMount, useMonaco } from "@monaco-editor/react";
+import useConfig from "../../store/useConfig";
+import useFile from "../../store/useFile";
 
 // 配置Monaco编辑器加载路径，使用CDN资源
 loader.config({
