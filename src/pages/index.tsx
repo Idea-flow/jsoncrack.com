@@ -119,6 +119,7 @@ const EditorPage = () => {
   // 从配置存储中获取暗色模式启用状态
   const darkmodeEnabled = useConfig(state => state.darkmodeEnabled);
 
+  console.log("EditorPage 渲染，暗色模式:", darkmodeEnabled);
   // 从图形存储中获取全屏状态
   const fullscreen = useGraph(state => state.fullscreen);
 
